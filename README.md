@@ -9,6 +9,24 @@ This repo was created in conformaty with part 1 of the final project of SPD, mea
 https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg5pk&ab_channel=PragmaticAILabs
 
 ## how to set up a cloud ##
+1. clone the repo
+    1. create ssh key using the command:
+        ```
+        ssh-keygen -t rsa
+        ```
+        and press enter 4 times
+    2. type the command
+        ```
+        cat /home/<user>/.ssh/id_rsa.pub
+        ```
+        copy the output of the command, all of it and add it to github in 
+        
+        Settings>SSH and GPG keys>new ssh key
+
+        the tittle doesnt matter but in Key field you must paste the output of the previous command
+
+    3. get the repo ssh url
+    ![Text](URL)
 1. create a python virtual env
     1. insert the command:
         ```
