@@ -26,7 +26,14 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
         the tittle doesnt matter but in Key field you must paste the output of the previous command
 
     3. get the repo ssh url
-    ![Text](URL)
+    
+    ![Text](https://raw.githubusercontent.com/beybladeuser/SPD-multi-cloud-onboard/main/IMGs/getSSHURL.png)
+
+    4. make the following command 
+        ```
+        git clone <repo ssh url>
+        ```
+    5. change dir into the repo dir
 1. create a python virtual env
     1. insert the command:
         ```
