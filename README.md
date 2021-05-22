@@ -18,7 +18,10 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
         ```
         source ~/.SPD-multi-cloud-onboard/bin/activate
         ```
-    3. make the following files 
+    
+    
+1. create scaffolding
+    1. make the following files 
         * Makefile
         * hello.py
         * requirements.txt
@@ -28,5 +31,10 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
         ```
         touch <nameOfFile>
         ```
-    4. populate the files
-1. create scaffolding
+    2. populate the files
+    3. to be safe insert the following commands:
+        ```
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+        ```
+        so that you can commit without issues
