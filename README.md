@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
         ssh-keygen -t rsa
         ```
         and press enter 4 times
-    2. type the command
+    1. type the command
         ```
         cat /home/<user>/.ssh/id_rsa.pub
         ```
@@ -25,21 +25,21 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
 
         the tittle doesnt matter but in Key field you must paste the output of the previous command
 
-    3. get the repo ssh url
+    1. get the repo ssh url
     
     ![Text](https://raw.githubusercontent.com/beybladeuser/SPD-multi-cloud-onboard/main/IMGs/getSSHURL.png)
-
+    
     4. make the following command 
         ```
         git clone <repo ssh url>
         ```
-    5. change dir into the repo dir
+    1. change dir into the repo dir
 1. create a python virtual env
     1. insert the command:
         ```
         python3 -m venv ~/.SPD-multi-cloud-onboard
         ```
-    2. to activate the venv insert the command:
+    1. to activate the venv insert the command:
         ```
         source ~/.SPD-multi-cloud-onboard/bin/activate
         ```
@@ -56,8 +56,12 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
         ```
         touch <nameOfFile>
         ```
-    2. populate the files
-    3. to be safe insert the following commands:
+    1. populate the files
+    1. insert the command
+        ```
+        make install
+        ```
+    1. to be safe insert the following commands:
         ```
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
