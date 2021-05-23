@@ -67,3 +67,6 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
         git config --global user.name "Your Name"
         ```
         so that you can commit without issues
+        
+at the end after creating the github action you should have this badge
+[![Python application test with Github Actions](https://github.com/beybladeuser/SPD-multi-cloud-onboard/actions/workflows/main.yml/badge.svg)](https://github.com/beybladeuser/SPD-multi-cloud-onboard/actions/workflows/main.yml)
