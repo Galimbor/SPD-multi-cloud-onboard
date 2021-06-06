@@ -7,6 +7,7 @@ test:
 	#python -m pytest --nbval notebook.ipynb
 
 lint:
+	#search for sintax errors
 	pylint --disable=R,C hello.py 
 
 format:
