@@ -1,21 +1,38 @@
 # SPD-multi-cloud-onboard
+> a63971, a64007, a64014, a64591, a64592
+
 The last project of the class SPD of ualg's computer science degree, consisting of an example on how to use a single Github repo for doing multi-cloud onboarding. This works with AWS, Azure and GCP:
 
-The following link contains the ~~palavra para enunciado~~:
+The following link contains the professor's guide:
 https://tutoria.ualg.pt/2020/mod/resource/view.php?id=150312
 
 This repo was created in conformaty with part 1 of the final project of SPD, meaning it follows the tutorial present in the following youtube video:
 
 https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg5pk&ab_channel=PragmaticAILabs
 
-## how to set up a cloud ##
-1. clone the repo
-    1. create ssh key using the command:
+# Cloud onbording 
+ - Scaffold for Python using github
+ - - Makefile
+ - - Script --> hello.py
+ - - Requirements.txt
+ - - test
+ - - virtualenv
+
+## Create a git repository
+Go to github and start a new repository
+
+## AWS
+### Cloud 9
+1. create enviroment
+
+### How to set up a cloud
+> #### STEP 1 - Configure Git and Cloud settings
+1. create ssh key using the command:
         ```
         ssh-keygen -t rsa
         ```
         and press enter 4 times
-    1. type the command
+2. type the command
         ```
         cat /home/<user>/.ssh/id_rsa.pub
         ```
@@ -25,38 +42,38 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
 
         the tittle doesnt matter but in Key field you must paste the output of the previous command
 
-    1. get the repo ssh url
+3. get the repo ssh url
     
     ![Text](https://raw.githubusercontent.com/beybladeuser/SPD-multi-cloud-onboard/main/IMGs/getSSHURL.png)
     
-    4. make the following command 
+4. make the following command 
         ```
         git clone <repo ssh url>
         ```
-    1. change dir into the repo dir
-1. create a python virtual env
-    1. insert the command:
+5. change dir into the repo dir
+
+> #### STEP 2 - Create Virtual Env
+1. insert the command:
         ```
         python3 -m venv ~/.SPD-multi-cloud-onboard
         ```
-    1. to activate the venv insert the command:
+2. to activate the venv insert the command:
         ```
         source ~/.SPD-multi-cloud-onboard/bin/activate
         ```
     
-    
-1. create scaffolding
-    1. make the following files 
-        * Makefile
-        * hello.py
-        * requirements.txt
-        * test_hello.py
+> #### STEP 3 - Create scaffolding
+1. make the following files 
+    * Makefile -> we use this for the same reason that we create a bookmark in google, in order to don't repeat ourselves. In this case instead of always use the different comands over and over again, we make a makefile and then we just write ```make install```
+    * hello.py
+    * requirements.txt
+    * test_hello.py
     
         by using the command:
         ```
         touch <nameOfFile>
         ```
-    1. populate the files
+2. populate the files
     1. insert the command
         ```
         make install
