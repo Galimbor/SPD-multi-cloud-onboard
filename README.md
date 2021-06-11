@@ -21,9 +21,23 @@ https://www.youtube.com/watch?v=zznvjk0zsVg&list=PLdfopzFjkPz8mRcTVdikopb2Yi3dqg
 ## Create a git repository
 Go to github and start a new repository
 
-## AWS
+## 1. AWS
 ### Cloud 9
 1. create enviroment
+
+## 2. Google Cloud Platform (GCP)
+1. Go to GCP `console` and activate `Cloud Shell`
+2. Create ssh keys
+3. Clone repo
+3. Create virtualenv
+
+## 3. Azure
+1. Go to Azure portal and activate `Cloud Shell`
+2. Create ssh keys
+3. Clone repo
+3. Create virtualenv
+
+
 
 ### How to set up a cloud
 > #### STEP 1 - Configure Git and Cloud settings
@@ -61,6 +75,10 @@ Go to github and start a new repository
         ```
         source ~/.SPD-multi-cloud-onboard/bin/activate
         ```
+3. to deactivate the virtual env
+    ```
+    deactivate
+    ```
     
 > #### STEP 3 - Create scaffolding
 1. make the following files 
@@ -87,3 +105,7 @@ Go to github and start a new repository
         
 at the end after creating the github action you should have this badge
 [![Python application test with Github Actions](https://github.com/beybladeuser/SPD-multi-cloud-onboard/actions/workflows/main.yml/badge.svg)](https://github.com/beybladeuser/SPD-multi-cloud-onboard/actions/workflows/main.yml)
+
+
+
+
