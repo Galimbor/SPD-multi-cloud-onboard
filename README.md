@@ -24,6 +24,7 @@ Go to github and start a new repository
 ## 1. AWS
 ### Cloud 9
 1. create enviroment
+2. open IDE
 
 ## 2. Google Cloud Platform (GCP)
 1. Go to GCP `console` and activate `Cloud Shell`
