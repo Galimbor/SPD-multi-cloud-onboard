@@ -6,4 +6,5 @@ def mult(x, y):
 
 
 print(add(1, 2))
+print("ola")
 print(mult(3,2))
